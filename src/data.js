@@ -1,4 +1,4 @@
-import { FaLocationArrow, FaHiking, FaRegBuilding, FaPlane, FaGlassCheers, FaGlobeAmericas, FaUmbrellaBeach, FaVest, FaWineGlassAlt, FaLuggageCart } from 'react-icons/fa';
+import { FaLocationArrow, FaHiking, FaRegBuilding, FaPlane, FaGlassCheers, FaUmbrellaBeach, FaVest, FaWineGlassAlt, FaLuggageCart } from 'react-icons/fa';
 import React from 'react';
 const sublinks = [
   {
@@ -15,8 +15,7 @@ const sublinks = [
       { label: 'Sandals and Beach Resorts', icon: <FaUmbrellaBeach />, url: '/products' },
       { label: 'All-Inclusive Vacation Packages', icon: <FaPlane />, url: '/products' },
       { label: 'Destination Weddings and Honeymoons', icon: <FaGlassCheers />, url: '/products' },
-      { label: 'European Get-Aways', icon: <FaLuggageCart/>, url: '/products' },
-      { label: 'Special Interest Trips', icon: <FaHiking />, url: '/products' }
+      { label: 'European Get-Aways', icon: <FaLuggageCart/>, url: '/products' }
     ],
   },
   {
