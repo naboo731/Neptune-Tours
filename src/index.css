@@ -82,6 +82,7 @@ h4 {
 }
 h1 {
   font-size: 3rem;
+  text-shadow: 1.35px 1.35px white;
 }
 h2 {
   font-size: 2rem;
@@ -94,7 +95,8 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: white;
+  text-shadow: 1.5px 1.5px #222;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -163,12 +165,12 @@ Stripe Styles
   border-radius: var(--radius);
   border-color: transparent;
   color: white;
-  background: var(--clr-black);
+  background: #bb3c34;
   cursor: pointer;
   transition: var(--transition);
 }
 .btn:hover {
-  background: var(--clr-grey-5);
+  background: var(--clr-red-light);
 }
 .nav-links {
   display: none;

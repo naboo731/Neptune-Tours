@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav className='nav' onMouseOver={handleSubmenu}>
       <div className='nav-center'>
         <div className='nav-header'>
-          <img src={logo} className='nav-logo' alt='Neptune tours logo with blue round, planet and white lettering below that says Neptune Tours' 
+          <img src={logo} className='nav-logo' alt='Rimor logo with blue palm trees, a tiki hut, and a plane flying over it' 
             height='250px' />
           <button className='btn toggle-btn' onClick={openSidebar}>
             <FaBars />
@@ -30,17 +30,17 @@ const Navbar = () => {
         <ul className='nav-links'>
           <li>
             <button className='link-btn' onMouseOver={displaySubmenu}>
-              products
+              find an agent
             </button>
           </li>
           <li>
             <button className='link-btn' onMouseOver={displaySubmenu}>
-              developers
+              destinations
             </button>
           </li>
           <li>
             <button className='link-btn' onMouseOver={displaySubmenu}>
-              company
+              specials
             </button>
           </li>
         </ul>
